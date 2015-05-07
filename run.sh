@@ -313,7 +313,6 @@ if [ $exit_code_push -ne 0 ]; then
     fi
 fi
 
-
 if [ "$WERCKER_HEROKU_DEPLOY_INSTALL_TOOLBELT" == "true" -o -n "$WERCKER_HEROKU_DEPLOY_RUN" ]; then
     set +e;
     install_toolbelt;

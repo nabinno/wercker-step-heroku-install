@@ -273,7 +273,7 @@ add_ssh_key() {
     curl -n -X POST https://api.heroku.com/account/keys \
         -H "Accept: application/vnd.heroku+json; version=3" \
         -H "Content-Type: application/json" \
-        -d "{\"public_key\":\"$public_key\"" > /dev/null 2>&1;
+        -d "{\"public_key\":\"$public_key\"}" > /dev/null 2>&1;
 }
 
 calculate_fingerprint() {

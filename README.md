@@ -102,6 +102,14 @@ The MIT License (MIT)
 
 # Changelog
 
+## 3.0.1
+
+- Fix sending randomly generating SSH keys to Heroku
+
+## 3.0.0
+
+- Refactor
+
 ## 2.2.1
 
 - fixed: ssh: connect to host git.heroku.com port 22: Connection timed out

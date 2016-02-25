@@ -102,6 +102,10 @@ The MIT License (MIT)
 
 # Changelog
 
+## 3.1.0
+
+- Add support for GIT_SSH_COMMAND
+
 ## 3.0.1
 
 - Fix sending randomly generating SSH keys to Heroku

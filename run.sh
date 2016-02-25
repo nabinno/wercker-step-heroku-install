@@ -184,6 +184,7 @@ init_gitssh() {
     echo "ssh -e none -i \"$ssh_key_path\" \$@" > "$gitssh_path";
     chmod 0700 "$gitssh_path";
     export GIT_SSH="$gitssh_path";
+    export GIT_SSH_COMMAND="ssh -e none -i \"$ssh_key_path\" \$@";
 }
 
 install_toolbelt() {

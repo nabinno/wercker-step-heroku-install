@@ -16,4 +16,3 @@ build:
             code: |
                 mkdir -p $WERCKER_ROOT/vendor/heroku
                 mv /tmp/heroku/heroku-client/* $WERCKER_ROOT/vendor/heroku
-                rm -rf $WERCKER_ROOT/.git $WERCKER_ROOT/.gitignore
